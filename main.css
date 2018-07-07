@@ -1,0 +1,22 @@
+
+.text{
+	
+	text-shadow: 0 0 10px #42b6f4, 0 0 10px #42b6f4;
+	
+	color: white;
+	
+	font-family: retro;
+	
+	margin-left: 5%;
+	
+	font-size: 150%;
+	
+	line-height: 1px;
+	
+}
+
+@font-face {
+	font-family: "retro";
+	src: url("Perfect DOS VGA 437 Win.ttf");
+}
+
