@@ -9,6 +9,18 @@ var shutDownWheel;
 
 var buttonsEnabled = true;
 
+var keyFirstPressed = false;
+
+function startBackgroundMusic(){
+	
+	if(keyFirstPressed == false){
+		
+		document.getElementById("backgroundNoise").play();
+		
+	}
+	
+}
+
 function shutDown(){
 	
 	buttonsEnabled = false;
@@ -64,6 +76,8 @@ function clearViewWindow(){
 }
 
 function keyPressed(event) {
+	startBackgroundMusic();
+	keyFirstPressed = true;
 	if(buttonsEnabled == true){
 		clearViewWindow();
 		if (event.keyCode == 38 || event.keyCode == 87) {
