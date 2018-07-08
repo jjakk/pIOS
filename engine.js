@@ -25,45 +25,43 @@ function shutDown(){
 	
 	buttonsEnabled = false;
 	
-	if(buttonsEnabled = false){
+	document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 250);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 500);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 750);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 1000);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 1250);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 1500);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 1750);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 2000);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 2250);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 2500);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 2750);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 3000);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 3250);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 3500);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 3750);
+		
+	setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 4000);
+		
+	setTimeout(function(){window.close();}, 4100);
 	
-		document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 250);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 500);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 750);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 1000);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 1250);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 1500);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 1750);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 2000);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 2250);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 2500);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 2750);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 3000);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN /</p>";}, 3250);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN -</p>";}, 3500);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN \\</p>";}, 3750);
-		
-		setTimeout(function(){document.getElementById("exitBox").innerHTML = "<p class='text' style='margin-top: 14%; color: red; text-shadow: 0 0 10px red, 0 0 10px red;'>SHUTTING DOWN |</p>";}, 4000);
-		
-		setTimeout(function(){window.close();}, 4100);
 	
-	}
 	
 }
 
@@ -262,9 +260,9 @@ function keyPressed(event) {
 					
 					pressText.style.position = "absolute";
 					
-					pressText.style.left = "39%";
+					pressText.style.left = "39.5%";
 					
-					pressText.style.bottom = "40%";
+					pressText.style.bottom = "42%";
 					
 					pressText.style.color = "red";
 					
