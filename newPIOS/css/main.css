@@ -30,13 +30,40 @@
 	
 	position: absolute;
 	
-	top: 490px;
+	top: 487px;
+	
+}
+
+
+#consoleText{
+	
+	position: absolute;
+	
+	top: 10px;
+	
+	left: -20px;
+	
+}
+
+#console{
+	
+	width: 700px;
+	
+	height: 69px;
+	
+	border: 1px solid white;
+	
+	position: relative;
+	
+	top: 430px;
+	
+	right: 1px;
 	
 }
 
 #pIOSTextBox{
 	
-	width: 52px;
+	width: 57px;
 	
 	left: 475px;
 	
@@ -44,7 +71,7 @@
 
 #versionTextBox{
 	
-	width: 112px;
+	width: 117px;
 	
 	left: 540px;
 	
@@ -52,7 +79,7 @@
 
 #omniTextBox{
 	
-	width: 52px;
+	width: 57px;
 	
 	left: 410px;
 	
@@ -81,6 +108,8 @@
 	border: 1px solid white;
 	
 	position: relative;
+	
+	overflow: none;
 	
 }
 
