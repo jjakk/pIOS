@@ -1,0 +1,86 @@
+
+@font-face {
+	font-family: "retro";
+	src: url("Perfect DOS VGA 437 Win.ttf");
+}
+
+.text{
+	
+	text-shadow: 0 0 10px #42b6f4, 0 0 10px #42b6f4;
+	
+	color: white;
+	
+	font-family: retro;
+	
+	margin-left: 5%;
+	
+	font-size: 150%;
+	
+	line-height: 1px;
+	
+}
+
+.footerText{
+	
+	background: black;
+	
+	height: 25px;
+	
+	text-align: center;
+	
+	position: absolute;
+	
+	top: 490px;
+	
+}
+
+#pIOSTextBox{
+	
+	width: 52px;
+	
+	left: 475px;
+	
+}
+
+#versionTextBox{
+	
+	width: 112px;
+	
+	left: 540px;
+	
+}
+
+#omniTextBox{
+	
+	width: 52px;
+	
+	left: 410px;
+	
+}
+
+#bodyBackground{
+	
+	background: black;
+	
+	width: 99%;
+	
+	height: 92%;
+	
+}
+
+#mainWindow{
+	
+	margin: auto;
+	
+	margin-top: 3%;
+	
+	width: 700px;
+	
+	height: 500px;
+	
+	border: 1px solid white;
+	
+	position: relative;
+	
+}
+

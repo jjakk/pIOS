@@ -260,9 +260,9 @@ function keyPressed(event) {
 					
 					pressText.style.position = "absolute";
 					
-					pressText.style.left = "39.5%";
+					pressText.style.left = "39%";
 					
-					pressText.style.bottom = "42%";
+					pressText.style.bottom = "41%";
 					
 					pressText.style.color = "red";
 					
