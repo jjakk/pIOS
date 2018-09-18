@@ -18,6 +18,14 @@
 	
 	line-height: 1px;
 	
+	-webkit-user-select: none;
+	
+	-moz-user-select: none;
+	
+	-ms-user-select: none;
+	
+	user-select: none;
+	
 }
 
 .footerText{
@@ -38,10 +46,25 @@
 	
 	font-size: 20px;
 	
-	line-height: 10px;
+	line-height: 5px;
 	
 }
 
+#selector{
+	
+	height: 25px;
+	
+	width: 250px;
+	
+	position: absolute;
+	
+	background: #ff5a51;
+	
+	opacity: 0.5;
+	
+	top: 9px;
+	
+}
 
 #consoleText{
 	
