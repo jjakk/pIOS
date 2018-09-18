@@ -1,23 +1,37 @@
 
+function initiateStuff(){
+	
+	document.getElementById("selector").style.top = 9;
+	
+}
+
 function keyPressed(event) {
 	
-	lineShift = document.getElementById("selector").style.top;
+	lineShift = parseInt(document.getElementById("selector").style.top);
 	
 	//Up Key
 	if (event.keyCode == 38 || event.keyCode == 87) {
 		
-		lineShift -= 30;
+		if(lineShift != 9){
+		
+			lineShift -= 25;
+		
+		}
 		
 	}
 	//Down Key
 	if (event.keyCode == 40 || event.keyCode == 83) {
 		
-		console.log("dfghjk")
+		if(lineShift != 309){
 		
-		lineShift += 33;
+			lineShift += 25;
+		
+		}
 		
 	}
+	//Enter Key
 	if (event.keyCode == 13) {
+		
 		
 		
 	}
