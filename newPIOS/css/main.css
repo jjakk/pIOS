@@ -34,6 +34,14 @@
 	
 }
 
+.controlText{
+	
+	font-size: 20px;
+	
+	line-height: 10px;
+	
+}
+
 
 #consoleText{
 	
@@ -42,6 +50,38 @@
 	top: 10px;
 	
 	left: -20px;
+	
+}
+
+#leftControlWindow{
+	
+	width: 150px;
+	
+	height: 430px;
+	
+	border: 1px solid white;
+	
+	position: absolute;
+	
+	top: -1px;
+	
+	left: -1px;
+	
+}
+
+#rightControlWindow{
+	
+	width: 100px;
+	
+	height: 430px;
+	
+	border: 1px solid white;
+	
+	position: absolute;
+	
+	top: -1px;
+	
+	left: 150px;
 	
 }
 
