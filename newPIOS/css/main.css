@@ -66,6 +66,36 @@
 	
 }
 
+#previewWindow{
+	
+	width: 448px;
+	
+	height: 430px;
+	
+	border: 1px solid white;
+	
+	position: absolute;
+	
+	top: -1px;
+	
+	left: 251px;
+	
+}
+
+.previewText{
+	
+	color: #8f989d;
+	
+	text-shadow: none;
+	
+	line-height: 25px;
+	
+	margin-top: 10px;
+	
+	margin-left: 10px;
+	
+}
+
 #consoleText{
 	
 	position: absolute;
