@@ -2,122 +2,118 @@
 
 <meta charset="utf-8" />
 
-<link rel="stylesheet" href="main.css"/>
+<link rel="stylesheet" href="css/main.css"/>
 
-<script src="engine.js"></script>
+<script src="js/engine.js"></script>
 
 <title>pIOS</title>
 
-<div style="background: black; width: 40%; height: 6%; position: absoulte;">
+<body id="bodyBackground" onkeydown="keyPressed(event);" onload="initiateStuff();">
 
-<audio controls autoplay loop id="backgroundNoise" style="position: relative;">
-	<source src="backgroundNoise.mp3" type="audio/mpeg">
-</audio>
+<div id="mainWindow">
 
-<audio id="select" style="position: relative;">
-	<source src="select.mp3" type="audio/mpeg">
-</audio>
+<!-- Selector -->
 
-<audio id="reselect" style="position: relative;">
-	<source src="reselect.mp3" type="audio/mpeg">
-</audio>
-
-<div style="position:absolute;top:0;left:0;width:90%;height:8%;background-color:black;"></div>
+<div id="selector">
 
 </div>
 
-<body style="background: black; width: 99%; height: 97%; position: relative;" onkeydown="keyPressed(event)" onload="initiateStuff();">
+<!-- Left Control Window stuff -->
 
-<div id="mainBox" style="position: relative; top: 7.5%; left:25%; width:50%; height:70%;background-color: black; border: 1px solid white;">
+<div id="leftControlWindow">
 
-<div id="selector" style="opacity: 0.5; width: 42%; height: 5%; position: absolute; background: #e03838; top: 2.5%;"></div>
+<p class="text controlText">superhot.exe</p>
 
-<div id="programs" style="position: absolute; width: 25%; height: 90%; border: 1px solid white;">
+<p class="text controlText">readme.txt</p>
 
-<p id="option1" class="text">superhot.exe<p>
+<p class="text controlText">quite.exe</p>
 
-<p id="option2" class="text">readme.txt<p>
+<p class="text controlText">------------</p>
 
-<p id="option3" class="text">quit.exe<p>
+<p class="text controlText">SETTINGS</p>
 
-<p id="option4" class="text">------------<p>
+<p class="text controlText">APPS</p>
 
-<p id="option5" class="text">SETTINGS<p>
+<p class="text controlText">DEMOS</p>
 
-<p id="option6" class="text">APPS<p>
+<p class="text controlText">CELLULAR</p>
 
-<p id="option7" class="text">DEMOS<p>
+<p class="text controlText">WIRES</p>
 
-<p id="option8" class="text">CELLULAR<p>
+<p class="text controlText">GAMES</p>
 
-<p id="option9" class="text">WIRES<p>
+<p class="text controlText">VR</p>
 
-<p id="option10" class="text">GAMES<p>
+<p class="text controlText">ART</p>
 
-<p id="option11" class="text">VR<p>
-
-<p id="option12" class="text">ART<p>
-
-<p id="option13" class="text">VIDEOS<p>
+<p class="text controlText">VIDEOS</p>
 
 </div>
 
-<div id="secondColumn" style="position: absolute; left: 25%; width: 17%; height: 90%; border: 1px solid white;">
+<!-- Right Control Window stuff -->
 
-<p class="text">--FILE-><p>
+<div id="rightControlWindow">
 
-<p class="text">--FILE-><p>
+<p class="text controlText">--FILE-></p>
 
-<p class="text">--FILE-><p>
+<p class="text controlText">--FILE-></p>
 
-<p class="text">--------<p>
+<p class="text controlText">--FILE-><p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">--------<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-<p class="text">>FOLDER<<p>
+<p class="text controlText">>FOLDER<<p>
 
-</div>
+<p class="text controlText">>FOLDER<<p>
 
-<div id="viewWindow" style="position: relative; left: 42%; width: 58%; height: 90%; border: 1px solid white;">
-
-<p class="text" style="color: white; position: absolute;">This feature is not available</p>
 
 </div>
 
-<div id="bottomPart" style="position: absolute; top: 90%; width: 99.9%; height: 10%; border: 1px solid white;">
+<!-- Main Window Stuff -->
 
-<p id="bottomText" class="text" style="margin-left: 1%;">C:\<p>
+<div id="previewWindow">
 
-</div> 
+<p class="text previewText">"Superhot is the most innovative game I've played in years" - Team Superhot</p>
 
 </div>
 
-<div style=" width: 3.6%; height: 3%; position: absolute; left: 58.75%; top: 82%; background-color: black;"></div>
+<!-- Superhot is the most innovative game I've played in years -->
 
-<p class="text" style="position: absolute; left: 54%; top: 80.5%; background-color: black; line-height: 0;">Omni</p>
+<!-- Console Window stuff -->
 
-<div style=" width: 3.65%; height: 4%; position: absolute; left: 62.75%; top: 82%; background-color: black;"></div>
+<div id="console">
 
-<p class="text" style="position: absolute; left: 58%; top: 80.5%; background-color: black; line-height: 0;">piOS</p>
+<p id="consoleText" class="text">C:\</p>
 
-<div style=" width: 7.1%; height: 4%; position: absolute; left: 66.8%; top: 82%; background-color: black;"></div>
+</div>
 
-<p class="text" style="position: absolute; left: 62%; top: 80.5%; background-color: black; line-height: 0;">V2.1.01p</p>
+<!-- Footer stuff -->
+
+<div class="text footerText" id="omniTextBox"><p style="margin-top: 12px; margin-left: 3px;">Omni</p></div>
+
+<div class="text footerText" id="pIOSTextBox"><p style="margin-top: 12px; margin-left: 3px;">piOS</p></div>
+
+<div class="text footerText" id="versionTextBox"><p style="margin-top: 12px; margin-left: 3px;">V2.1.01p</p></div>
+
+</div>
 
 </body>
 
 </html>
+
+<!-- Right twix is better than left twix -->
+
