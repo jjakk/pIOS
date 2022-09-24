@@ -78,7 +78,7 @@ function keyPressed(event) {
 		
 		document.getElementById("readmePreviewText").className += " previewText";
 		
-		document.getElementById("readmePreviewText").innerHTML = "JJakk proudly presents piOS, designed by Team Superhot";
+		document.getElementById("readmePreviewText").innerHTML = "JJakk proudly presents pIOS, designed by Team Superhot";
 		
 	}
 	
